@@ -159,6 +159,9 @@ let g:ctrlp_custom_ignore = {
 "Commenter
 "visual mode + c[cnmis]
 Bundle 'scrooloose/nerdcommenter'
+"=====
+"ycm
+Plugin 'Valloric/YouCompleteMe'
 
 "=====
 "rust
