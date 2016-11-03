@@ -104,6 +104,7 @@ hi Normal ctermbg=NONE
 "=======
 "Lines
 Bundle 'bling/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
 let g:airline#extension#tabline#enabled = 1
 let g:airline#extension#tabline#left_sep = ' '
 let g:airline#extension#tabline#left_alt_sep = '|'
@@ -162,6 +163,13 @@ Bundle 'scrooloose/nerdcommenter'
 "=====
 "ycm
 Plugin 'Valloric/YouCompleteMe'
+nnoremap <Leader>g :YcmCompleter Goto<CR>
+let g:ycm_server_log_level = 'debug'
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+"osx
+let g:ycm_rust_src_path = '~/.vim/rust_src/src'
+"let $RUST_SRC_PATH= '~/.vim/rust_src/src'
 
 "=====
 "rust
