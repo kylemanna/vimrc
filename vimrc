@@ -166,7 +166,7 @@ Plugin 'Valloric/YouCompleteMe'
 nnoremap <Leader>g :YcmCompleter Goto<CR>
 let g:ycm_server_log_level = 'debug'
 let g:ycm_confirm_extra_conf = 0
-let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+"let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 "osx
 let g:ycm_rust_src_path = '~/.vim/rust_src/src'
 "let $RUST_SRC_PATH= '~/.vim/rust_src/src'
